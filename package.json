@@ -6,6 +6,6 @@
   },
   "scripts": {
     "start": "PORT=1234 npx y-websocket",
-    "build": ""
+    "build": "npm install"
   }
 }
