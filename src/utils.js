@@ -160,6 +160,7 @@ exports.getYDoc = getYDoc
  * @param {Uint8Array} message
  */
 const messageListener = (conn, doc, message) => {
+    console.log("-> conn", conn.binaryType);
     try {
         const encoder = encoding.createEncoder()
         const decoder = decoding.createDecoder(message)

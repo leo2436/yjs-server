@@ -19,6 +19,7 @@ const server = http.createServer((request, response) => {
 wss.on('connection', setupWSConnection)
 
 server.on('upgrade', (request, socket, head) => {
+    console.log("-> request", request.url);
     // You may check auth of request here..
     // See https://github.com/websockets/ws#client-authentication
     /**
