@@ -14,5 +14,8 @@
   "scripts": {
   "start": "PORT=1234 node src/server.js",
     "build": "npm install"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
