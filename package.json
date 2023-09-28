@@ -12,7 +12,7 @@
     "yjs": "^13.6.8"
   },
   "scripts": {
-  "start": "PORT=1234 node src/server.js",
+  "start": "HOST=0.0.0.0 npx y-websocket",
     "build": "npm install"
   },
   "engines": {
