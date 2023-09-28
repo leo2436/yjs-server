@@ -2,11 +2,17 @@
   "name": "yjs-server",
   "version": "1.0.0",
   "dependencies": {
+    "lib0": "^0.2.86",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "ws": "^8.14.2",
+    "y-leveldb": "^0.1.2",
+    "y-protocols": "^1.0.6",
     "y-websocket": "^1.5.0",
     "yjs": "^13.6.8"
   },
   "scripts": {
-    "start": "PORT=1234 npx y-websocket",
+  "start": "PORT=1234 node src/server.js",
     "build": "npm install"
   }
 }
